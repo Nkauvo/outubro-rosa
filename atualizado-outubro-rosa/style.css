@@ -4,7 +4,7 @@
   --pink: #ff6ea6;
   --muted: #7a7a7a;
   --accent: #ffdcb3;
-  --container: 760px;
+  --container: 760px; /*se colocar 100%, vai ocupar a tela inteira*/
   --radius: 14px;
 }
 
@@ -174,7 +174,7 @@ footer {
 
 .pill {
   position: relative;
-  padding-left: 40px; 
+  padding-left: 15px; 
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -197,7 +197,6 @@ footer {
   position: absolute;
   object-fit: contain;
   right: 8%
-  
 }
 
 
